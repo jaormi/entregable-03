@@ -1,3 +1,102 @@
+*{padding: 0;
+    margin: 5px;
+    box-sizing: border-box;}
 body{
-    background-color: black;
+    background-color: rgb(182, 181, 181) !important;
 }
+
+img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top:15px;
+}
+header ul li a {
+    color: white;
+    position: relative;
+    bottom: 25px;
+    text-decoration: none;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+header{
+padding: 0px;
+    display: flex;
+    justify-content: space-around;
+
+    border-bottom: 1px solid rgb(148, 144, 144);
+ 
+}
+header ul li a:hover{color: rgb(165, 161, 161);
+}
+.boton1{
+    background-color: rgb(90, 88, 88);
+    padding: 15px;
+    border-radius: 10px;
+    bottom: 60px;
+}
+.boton2{
+    background-color: rgb(90, 88, 88);
+    padding: 15px;
+    border-radius: 10px;bottom: 60px;
+}
+.boton3{
+    background-color: rgb(90, 88, 88);
+    padding: 15px;
+    border-radius: 10px;bottom: 60px;
+}
+.boton4{
+    background-color: rgb(90, 88, 88);
+    padding: 15px;
+    border-radius: 10px;bottom: 60px;
+}
+h1{font-size: 25px !important;
+font-family: Arial, Helvetica, sans-serif !important;
+color: rgb(255, 255, 255) !important ;
+position: relative ;
+top: 20px;
+text-align: center;
+background-color: black;
+padding: 30px;
+}
+p{
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 60px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.card { position: relative;
+    top:80px;
+background-color: rgb(218, 218, 218) !important;}
+    .card-title{ text-align: center;
+        font-size: 18px;
+        position: relative;
+        top:30px;}
+        .card-text{
+            text-align: center;
+            font-size: 15px;
+        position: relative;
+        top:30px;}
+        .btn{
+            position: relative;
+            top: 13px;
+            left: 80px;
+        }
+        .card-img-top{
+            width: 200px !important;
+            left: 40px;
+        }
+        .d-block{
+            width: 500px;
+            height: 500px;
+            top: 50px;
+        }
