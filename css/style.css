@@ -1,17 +1,19 @@
 
 body{
     background-color: rgb(182, 181, 181) !important;
+    background-image: url(/asset/fondo-body.jpg);
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     position: relative;
-    top:20px;
+    top:10px;
     left: 20px;
-    max-width: 100%
+ 
 }
-header ul li a {
+
+ul li a {
     color: white;
     position: relative;
     bottom: 25px;
@@ -27,42 +29,36 @@ header{
     
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid rgb(148, 144, 144);
+    
+
  
 }
-header ul li a:hover{color: rgb(165, 161, 161);
-}
-.boton1{
-    background-color: rgb(90, 88, 88);
+
+
+.boton-gris{
+    background-color: #100c59d3;
     padding: 15px;
     border-radius: 10px;
     bottom: 40px;
-    max-width: 100%
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
 }
-.boton2{
-    background-color: rgb(90, 88, 88);
-    padding: 15px;
-    border-radius: 10px;bottom: 40px;
-}
-.boton3{
-    background-color: rgb(90, 88, 88);
-    padding: 15px;
-    border-radius: 10px;bottom: 40px;
-}
-.boton4{
-    background-color: rgb(90, 88, 88);
-    padding: 15px;
-    border-radius: 10px;bottom: 40px;
-}
-.titulo{font-size: 25px !important;
+
+.titulo{font-size: 35px !important;
 font-family: Arial, Helvetica, sans-serif !important;
 font-weight: bold;
-color: rgb(255, 255, 255) !important ;
+color: rgb(14, 13, 13) !important ;
 position: relative ;
-top: 20px;
+bottom: 22px;
 text-align: center;
-background-color: rgba(36, 34, 34, 0.87);
-padding: 25px;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-radius: 5px ;
+padding: 15px;
+margin-left: 50px;
+margin-right: 50px;
 
 }
 
@@ -76,7 +72,7 @@ padding: 25px;
     max-width: 100%
 
 }
-.item1{background-color: rgba(255, 255, 255, 0.397);
+.item1{background-color: rgba(243, 242, 242, 0.897);
 grid-row: 1/4;
 font-size: 12px;
 text-align: center;
@@ -84,13 +80,14 @@ border-radius: 10px;
 padding: 20px;}
 .informacion-club{
     padding:5px;
+    text-align: justify;
 }
 .escudo2{
    position: relative;
    top: 45px;
    left: 3px;
 }
-.imagen-2{background-color: rgba(255, 255, 255, 0.397);
+.imagen-2{background-color: rgba(243, 242, 242, 0.897);
     
 grid-column: 2/4;
 grid-row: 1/2;
@@ -98,18 +95,18 @@ border-radius: 10px;
 padding: 20px;
 text-align: center;
 }
-.TORNEO{width: 400PX;
-height: 180PX;
+.TORNEO{width: 550PX;
+height: 200PX;
 position: relative;
 left: 4px;}
-.item3{background-color: rgba(255, 255, 255, 0.397);
+.item3{background-color: rgba(243, 242, 242, 0.897);
 grid-column: 2/4;
 grid-row: 2/4;
 border-radius: 10px;
 padding: 20px}
 .info-campeon{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size:15px;
 }
 
@@ -138,7 +135,7 @@ background-color: rgb(218, 218, 218) !important;}
         top:25px;}
         .btn{
             padding: 5px !important;
-            background-color: blueviolet !important;
+            background-color: rgb(9, 1, 121) !important;
             border: none !important;
         
             position: relative;
@@ -169,8 +166,26 @@ background-color: rgb(218, 218, 218) !important;}
             height: 40px;
           position: fixed;
           top: 1000px;
-          left: 920px;
-   
-       
-          
+          left: 2020px;
+           }
+           .body-noticias{
+            background-color: white !important;
+           }
+        .navbar-brand{
+            font-weight: bold;
+            font-size: 15px !important;
+            color: white !important;
         }
+    nav.navbar.bg-body-tertiary {
+        
+           background: #100c59d3 !important;
+           position: relative;
+           padding: 15px;
+           
+           
+        }
+        .form-control{
+            position: relative;
+            left: 40px;
+        }
+    
