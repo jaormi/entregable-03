@@ -1,0 +1,26 @@
+li a {
+    color: white;
+    position: relative;
+    bottom: 25px;
+    text-decoration: none;
+    margin: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .boton-gris {
+    background-color: rgba(16, 12, 89, 0.8274509804);
+    padding: 15px;
+    border-radius: 10px;
+    bottom: 40px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }

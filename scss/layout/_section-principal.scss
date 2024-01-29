@@ -1,0 +1,85 @@
+.titulo {
+    font-size: 35px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+    color: rgb(14, 13, 13) !important;
+    position: relative;
+    bottom: 22px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .grid-conteiner {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px;
+    column-gap: 12px;
+    row-gap: 12px;
+    max-width: 100%;
+  }
+  
+  .item1 {
+    background-color: rgba(243, 242, 242, 0.897);
+    grid-row: 1/4;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  
+  
+  .informacion-club {
+    padding: 5px;
+    text-align: justify;
+  }
+  
+  .escudo2 {
+    position: relative;
+    top: 45px;
+    left: 3px;
+  }
+  
+  .imagen-2 {
+    background-color: rgba(243, 242, 242, 0.897);
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .TORNEO {
+    width: 550PX;
+    height: 200PX;
+    position: relative;
+    left: 4px;
+  }
+  
+  .item3 {
+    background-color: rgba(243, 242, 242, 0.897);
+    grid-column: 2/4;
+    grid-row: 2/4;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .info-campeon {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

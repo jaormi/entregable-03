@@ -1,191 +1,202 @@
-
-body{
-    background-color: rgb(182, 181, 181) !important;
-    background-image: url(/asset/fondo-body.jpg);
+body {
+  background-color: rgb(182, 181, 181) !important;
+  background-image: url(/asset/fondo-body.jpg);
 }
 
-img{
-    width: 90px;
-    height: 90px;
-    position: relative;
-    top:10px;
-    left: 20px;
- 
+li a {
+  color: white;
+  position: relative;
+  bottom: 25px;
+  text-decoration: none;
+  margin: 15px;
 }
 
-ul li a {
-    color: white;
-    position: relative;
-    bottom: 25px;
-    text-decoration: none;
-    margin: 15px;
+ul {
+  list-style: none;
+  display: flex;
 }
 
-header ul {
-    list-style: none;
-    display: flex;
-}
-header{
-    
-    display: flex;
-    justify-content: space-around;
-    
-
- 
+header {
+  display: flex;
+  justify-content: space-around;
 }
 
-
-.boton-gris{
-    background-color: #100c59d3;
-    padding: 15px;
-    border-radius: 10px;
-    bottom: 40px;
-    max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    
+.boton-gris {
+  background-color: rgba(16, 12, 89, 0.8274509804);
+  padding: 15px;
+  border-radius: 10px;
+  bottom: 40px;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
-.titulo{font-size: 35px !important;
-font-family: Arial, Helvetica, sans-serif !important;
-font-weight: bold;
-color: rgb(14, 13, 13) !important ;
-position: relative ;
-bottom: 22px;
-text-align: center;
-border-bottom: 1px solid black;
-border-top: 1px solid black;
-border-radius: 5px ;
-padding: 15px;
-margin-left: 50px;
-margin-right: 50px;
-
+img {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  top: 10px;
+  left: 20px;
 }
 
-.grid-conteiner{
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px;
-    column-gap: 12px;
-    row-gap: 12px;
-    max-width: 100%
-
-}
-.item1{background-color: rgba(243, 242, 242, 0.897);
-grid-row: 1/4;
-font-size: 12px;
-text-align: center;
-border-radius: 10px;
-padding: 20px;}
-.informacion-club{
-    padding:5px;
-    text-align: justify;
-}
-.escudo2{
-   position: relative;
-   top: 45px;
-   left: 3px;
-}
-.imagen-2{background-color: rgba(243, 242, 242, 0.897);
-    
-grid-column: 2/4;
-grid-row: 1/2;
-border-radius: 10px;
-padding: 20px;
-text-align: center;
-}
-.TORNEO{width: 550PX;
-height: 200PX;
-position: relative;
-left: 4px;}
-.item3{background-color: rgba(243, 242, 242, 0.897);
-grid-column: 2/4;
-grid-row: 2/4;
-border-radius: 10px;
-padding: 20px}
-.info-campeon{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    font-size:15px;
+.card {
+  position: relative;
+  bottom: 400px;
+  left: 600px;
+  background-color: rgb(218, 218, 218) !important;
 }
 
-
-p{
-    color: rgb(0, 0, 0);
-    position: relative;
-    top: 60px;
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif;
-    
+.card-title {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
 }
 
-.card { position: relative;
-    bottom: 400px;
-    left: 600px;
-background-color: rgb(218, 218, 218) !important;}
-    .card-title{ text-align: center;
-        font-size: 18px;
-        position: relative;
-        top:25px;}
-        .card-text{
-            text-align: center;
-            font-size: 13px;
-        position: relative;
-        top:25px;}
-        .btn{
-            padding: 5px !important;
-            background-color: rgb(9, 1, 121) !important;
-            border: none !important;
-        
-            position: relative;
-            top: 13px;
-            left: 80px;
-        
-        }
-        .card-img-top{
-            width: 150px !important;
-            left: 70px;
-        }
-    
-        .d-block{
-            width: 500px;
-            height: 500px;
-            top: 10px;
-            
-            
-        }
-        .carousel{
-            width: 500px;
-            height: 500px;
-            left: 15px;
-            
-        }
-        .boton-wpp{
-            width: 40px;
-            height: 40px;
-          position: fixed;
-          top: 1000px;
-          left: 2020px;
-           }
-           .body-noticias{
-            background-color: white !important;
-           }
-        .navbar-brand{
-            font-weight: bold;
-            font-size: 15px !important;
-            color: white !important;
-        }
-    nav.navbar.bg-body-tertiary {
-        
-           background: #100c59d3 !important;
-           position: relative;
-           padding: 15px;
-           
-           
-        }
-        .form-control{
-            position: relative;
-            left: 40px;
-        }
-    
+.card-text {
+  text-align: center;
+  font-size: 13px;
+  position: relative;
+  top: 25px;
+}
+
+.btn {
+  padding: 5px !important;
+  background-color: rgb(9, 1, 121) !important;
+  border: none !important;
+  position: relative;
+  top: 13px;
+  left: 80px;
+}
+
+.card-img-top {
+  width: 150px !important;
+  left: 70px;
+}
+
+.d-block {
+  width: 500px;
+  height: 500px;
+  top: 10px;
+}
+
+.carousel {
+  width: 500px;
+  height: 500px;
+  left: 15px;
+}
+
+.body-noticias {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 15px !important;
+  color: white !important;
+}
+
+nav.navbar.bg-body-tertiary {
+  background: rgba(16, 12, 89, 0.8274509804) !important;
+  position: relative;
+  padding: 15px;
+}
+
+.form-control {
+  position: relative;
+  left: 40px;
+}
+
+.boton-wpp {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 1000px;
+  left: 2020px;
+}
+
+.titulo {
+  font-size: 35px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+  color: rgb(14, 13, 13) !important;
+  position: relative;
+  bottom: 22px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.grid-conteiner {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px;
+  column-gap: 12px;
+  row-gap: 12px;
+  max-width: 100%;
+}
+
+.item1 {
+  background-color: rgba(243, 242, 242, 0.897);
+  grid-row: 1/4;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.informacion-club {
+  padding: 5px;
+  text-align: justify;
+}
+
+.escudo2 {
+  position: relative;
+  top: 45px;
+  left: 3px;
+}
+
+.imagen-2 {
+  background-color: rgba(243, 242, 242, 0.897);
+  grid-column: 2/4;
+  grid-row: 1/2;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.TORNEO {
+  width: 550PX;
+  height: 200PX;
+  position: relative;
+  left: 4px;
+}
+
+.item3 {
+  background-color: rgba(243, 242, 242, 0.897);
+  grid-column: 2/4;
+  grid-row: 2/4;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.info-campeon {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 15px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
