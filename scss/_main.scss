@@ -58,14 +58,20 @@
     font-weight: bold;
     font-size: 15px !important;
     color: white !important;
+    position: relative;
+    right: 15px;
+    bottom: 20px;
   }
   
   nav.navbar.bg-body-tertiary {
     background: rgba(16, 12, 89, 0.8274509804) !important;
     position: relative;
-    padding: 15px;
+    padding: 5px;
   }
-  
+  .navbar{
+    position: relative;
+    top: 20px;
+  }
   .form-control {
     position: relative;
     left: 40px;

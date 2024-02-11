@@ -1,14 +1,13 @@
 body {
-  background-color: rgb(182, 181, 181) !important;
-  background-image: url(/asset/fondo-body.jpg);
+  background-color: white !important;
 }
 
 li a {
-  color: white;
+  color: rgb(231, 53, 53);
   position: relative;
   bottom: 25px;
   text-decoration: none;
-  margin: 15px;
+  margin: 3px;
 }
 
 ul {
@@ -22,21 +21,22 @@ header {
 }
 
 .boton-gris {
-  background-color: rgba(16, 12, 89, 0.8274509804);
-  padding: 15px;
+  background-color: rgba(114, 110, 187, 0.827);
+  padding: 10px;
   border-radius: 10px;
-  bottom: 40px;
+  bottom: 0px;
   max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
+  font-size: 10px;
 }
 
 img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   position: relative;
-  top: 10px;
-  left: 20px;
+  bottom: 85px;
+  left: 120px;
 }
 
 .card {
@@ -94,12 +94,20 @@ img {
   font-weight: bold;
   font-size: 15px !important;
   color: white !important;
+  position: relative;
+  right: 15px;
+  bottom: 20px;
 }
 
 nav.navbar.bg-body-tertiary {
   background: rgba(16, 12, 89, 0.8274509804) !important;
   position: relative;
-  padding: 15px;
+  padding: 5px;
+}
+
+.navbar {
+  position: relative;
+  top: 20px;
 }
 
 .form-control {
@@ -115,20 +123,145 @@ nav.navbar.bg-body-tertiary {
   left: 2020px;
 }
 
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    background-color: rgb(165, 94, 94);
+  }
+  li a {
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 25px;
+    text-decoration: none;
+    margin: 3px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .boton-gris {
+    background-color: rgba(16, 12, 89, 0.8274509804);
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 0px;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+  }
+  nav.navbar.bg-body-tertiary {
+    background: rgba(16, 12, 89, 0.8274509804) !important;
+    position: relative;
+    padding: 55px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .boton-gris {
+    display: none;
+  }
+  .form-control {
+    display: none !important;
+  }
+  .boton-movil {
+    background-color: white;
+    border-color: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 220px;
+    top: 15px;
+  }
+  .boton-movil:hover {
+    background-color: red;
+  }
+  .menu-movil {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 1px;
+    top: 0px;
+    bottom: 500px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 85px;
+    left: 120px;
+  }
+  nav.navbar.bg-body-tertiary {
+    background: rgba(0, 0, 0, 0.827) !important;
+    position: relative;
+    padding: 15px;
+  }
+  h1.titulo {
+    font-size: 25px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: bold;
+    color: rgb(82, 29, 29) !important;
+    text-align: center;
+    border-top: 1px solid rgb(245, 8, 8);
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .TORNEO {
+    width: 280PX !important;
+    height: 200PX;
+    position: relative;
+    left: 1px !important;
+    bottom: 5px;
+  }
+  .carousel {
+    display: none;
+    width: 500px;
+    height: 500px;
+    left: 15px;
+  }
+  .grid-titulo {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 200px;
+    column-gap: 8px;
+    row-gap: 8px;
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+    right: 8px;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 65px;
+    left: 120px;
+  }
+}
 .titulo {
-  font-size: 35px !important;
+  font-size: 25px !important;
   font-family: Arial, Helvetica, sans-serif !important;
   font-weight: bold;
   color: rgb(14, 13, 13) !important;
   position: relative;
-  bottom: 22px;
+  top: 1px;
   text-align: center;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   border-radius: 5px;
   padding: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 460px;
 }
 
 .grid-conteiner {

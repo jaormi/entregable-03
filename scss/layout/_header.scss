@@ -1,9 +1,9 @@
 li a {
-    color: white;
+    color: rgb(231, 53, 53);
     position: relative;
     bottom: 25px;
     text-decoration: none;
-    margin: 15px;
+    margin: 3px;
   }
   
   ul {
@@ -16,11 +16,12 @@ li a {
     justify-content: space-around;
   }
   .boton-gris {
-    background-color: rgba(16, 12, 89, 0.8274509804);
-    padding: 15px;
+    background-color: rgba(114, 110, 187, 0.827);
+    padding: 10px;
     border-radius: 10px;
-    bottom: 40px;
+    bottom: 0px;
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    font-size: 10px;
   }
