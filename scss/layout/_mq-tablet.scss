@@ -1,42 +1,143 @@
-@media screen and (min-width: 1024px) {
-
-    .navbar-brand{
-        background-color: rgb(165, 94, 94);
+@media screen and (min-width: 481px) and (max-width: 1440px) {
+    .menu-movil {
+      display: none;
+    }
+    img {
+      width: 60px !important;
+      height: 60px !important;
+      bottom: 45px !important;
+      left: 10px;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 15px !important;
+      color: rgb(5, 5, 5) !important;
+      position: relative;
+      left: 45px;
+      bottom: 45px;
+    }
+    nav.navbar.bg-body-tertiary {
+      background: rgba(25, 15, 207, 0.827) !important;
+      position: relative;
+      padding: 15px;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+    }
+    header {
+      display: flex;
+      justify-content: space-around;
+    }
+    .boton-gris {
+      background-color: rgba(219, 1, 1, 0.827);
+      padding: 10px;
+      border-radius: 10px;
+      bottom: 0px;
+      max-width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      font-size: 10px;
+      position: relative;
+      right: 400px;
+      top: 5px;
     }
     li a {
-        color: rgb(255, 255, 255);
+        color: rgb(247, 242, 242);
         position: relative;
         bottom: 25px;
         text-decoration: none;
         margin: 3px;
       }
       
-      ul {
-        list-style: none;
-        display: flex;
-      }
-      
-      header {
-        display: flex;
-        justify-content: space-around;
-      }
-      .boton-gris {
-        background-color: rgba(16, 12, 89, 0.8274509804);
-        padding: 10px;
-        border-radius: 10px;
-        bottom: 0px;
-        max-width: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        font-size: 10px;
-      }
-  
-     
-     
-      nav.navbar.bg-body-tertiary {
-        background: rgba(16, 12, 89, 0.8274509804) !important;
+      .grid-titulo{
+        margin: 20px;
+        display: grid;
+        
+        column-gap: 8px;
+        row-gap: 8px;
+        max-width: 100px;
         position: relative;
-        padding: 55px;
+        bottom: 30px;
+        right: 8px;
+       
       }
- }
- 
+      h1.titulo { 
+        font-size: 25px !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-weight: bold;
+        color: rgb(8, 8, 8) !important;
+        text-align: center;
+        border-top: 1px solid  rgb(8, 8, 8);
+        border-bottom: 1px solid rgb(8, 8, 8);
+        border-radius: 5px;
+        width: 99%;
+       
+        margin-left: 10px;
+        margin-right:270px !important;
+      }  
+      .TORNEO {
+        width: 300px !important;
+        height: 150px !important;
+        position: relative;
+        left: 55px !important;
+        top: 5px;
+      }
+      .grid-conteiner {
+        position: relative;
+        bottom: 5px;
+        margin: 50px;
+        display: grid;
+        grid-template-columns:1;
+        grid-template-rows: 500px 500px !important ;
+        column-gap: 12px;
+        row-gap: 12px;
+        max-width: 50% !important;
+      }
+      .item1 {
+        background-color: rgba(232, 232, 236, 0.897);
+        grid-row: 1/2;
+        grid-column: 1/4;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .imagen-2 {
+        background-color: rgba(232, 232, 236, 0.897);
+        grid-column: 1/4;
+        grid-row: 2/3;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+      }
+      .boton-wpp {
+        width: 30px !important;
+        height: 30px !important;
+        position: fixed !important;
+        top: 200px;
+        left: 400px;
+      }
+      .d-block.w-100 {
+
+        width: 300px !important ;
+        height: 300px !important;
+        position: relative;
+        left: 55px;
+        
+      }
+      .boton-footer{
+        text-decoration: none;
+        background-color: rgba(219, 1, 1, 0.827) !important;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+      }
+      footer{
+      background-color: rgba(25, 15, 207, 0.827) !important;
+      }
+    }
+  

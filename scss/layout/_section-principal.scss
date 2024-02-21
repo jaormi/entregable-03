@@ -13,24 +13,8 @@
     margin-left: 10px;
     margin-right: 460px;
   }
-  .grid-conteiner {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px;
-    column-gap: 12px;
-    row-gap: 12px;
-    max-width: 100%;
-  }
+ 
   
-  .item1 {
-    background-color: rgba(243, 242, 242, 0.897);
-    grid-row: 1/4;
-    font-size: 12px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-  }
   
   
   
@@ -45,14 +29,7 @@
     left: 3px;
   }
   
-  .imagen-2 {
-    background-color: rgba(243, 242, 242, 0.897);
-    grid-column: 2/4;
-    grid-row: 1/2;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-  }
+  
   
   .TORNEO {
     width: 550PX;
@@ -61,13 +38,7 @@
     left: 4px;
   }
   
-  .item3 {
-    background-color: rgba(243, 242, 242, 0.897);
-    grid-column: 2/4;
-    grid-row: 2/4;
-    border-radius: 10px;
-    padding: 20px;
-  }
+ 
   
   .info-campeon {
     font-family: Arial, Helvetica, sans-serif;
