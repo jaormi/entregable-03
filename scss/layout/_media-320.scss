@@ -126,6 +126,10 @@
   position: fixed;
   top: 500px;
   left: 270px;
+  transition: 1s;
+  &:hover {
+    transform: rotate(360deg);
+  }
 }
 footer{
 background-color: red;

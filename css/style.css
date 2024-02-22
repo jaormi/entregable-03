@@ -1,5 +1,5 @@
 body {
-  background-color: white !important;
+  background-color: rgb(240, 238, 238) !important;
 }
 
 li a {
@@ -123,7 +123,7 @@ nav.navbar.bg-body-tertiary {
   left: 2020px;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1440px) {
+@media screen and (min-width: 481px) and (max-width: 2560px) {
   .menu-movil {
     display: none;
   }
@@ -238,6 +238,10 @@ nav.navbar.bg-body-tertiary {
     position: fixed !important;
     top: 200px;
     left: 400px;
+    transition: 1s;
+  }
+  .boton-wpp:hover {
+    transform: rotate(360deg);
   }
   .d-block.w-100 {
     width: 300px !important;
@@ -254,9 +258,13 @@ nav.navbar.bg-body-tertiary {
     font-size: 15px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: white;
+    position: relative;
+    left: 20px;
+    top: 10px;
   }
   footer {
     background-color: rgba(25, 15, 207, 0.827) !important;
+    height: 100px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -357,6 +365,10 @@ nav.navbar.bg-body-tertiary {
     position: fixed;
     top: 500px;
     left: 270px;
+    transition: 1s;
+  }
+  .boton-wpp:hover {
+    transform: rotate(360deg);
   }
   footer {
     background-color: red;
@@ -493,6 +505,9 @@ nav.navbar.bg-body-tertiary {
   height: 200PX;
   position: relative;
   left: 4px;
+  box-shadow: 2px 7px 24px 1px rgba(40, 49, 217, 0.59);
+  -webkit-box-shadow: 2px 7px 24px 1px rgba(40, 49, 217, 0.59);
+  -moz-box-shadow: 2px 7px 24px 1px rgba(40, 49, 217, 0.59);
 }
 
 .info-campeon {

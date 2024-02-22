@@ -1,4 +1,4 @@
-@media screen and (min-width: 481px) and (max-width: 1440px) {
+@media screen and (min-width: 481px) and (max-width: 2560px) {
     .menu-movil {
       display: none;
     }
@@ -117,6 +117,10 @@
         position: fixed !important;
         top: 200px;
         left: 400px;
+        transition: 1s;
+        &:hover {
+          transform: rotate(360deg);
+        }
       }
       .d-block.w-100 {
 
@@ -135,9 +139,14 @@
         font-size: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
+        position: relative;
+        left: 20px;
+        top: 10px;
+        
       }
       footer{
       background-color: rgba(25, 15, 207, 0.827) !important;
+      height:100px;
       }
     }
   
